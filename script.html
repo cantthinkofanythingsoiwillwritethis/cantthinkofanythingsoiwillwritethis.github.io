@@ -192,7 +192,7 @@ function checkPose4(prediction, video) {
 function checkPose5(prediction, video) {
     if (prediction.className === "pose 5" && 
         prediction.probability > 0.8 &&
-        video.currentTime >= 19.5 &&
+        video.currentTime >= 15.5 &&
         !pose5Triggered &&
         !explosionActive) {
         explosionActive = true;
